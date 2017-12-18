@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:id="@+id/you_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="撒娇的哈四六级的哈"
+    android:textSize="20sp"
+    />
+
+    <com.example.fenlei.view.GridViews
+        android:id="@+id/you_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"></com.example.fenlei.view.GridViews>
+
+
+
+
+</LinearLayout>

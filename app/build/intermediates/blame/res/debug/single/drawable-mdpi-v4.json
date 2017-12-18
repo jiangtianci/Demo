@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Android\\androidstudio_workspace\\Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\姜天赐\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b30a0f20c0aacaaafbe686f5b9f9d40e\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android\\androidstudio_workspace\\Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\姜天赐\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b30a0f20c0aacaaafbe686f5b9f9d40e\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Android\\androidstudio_workspace\\Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\姜天赐\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b30a0f20c0aacaaafbe686f5b9f9d40e\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Android\\androidstudio_workspace\\Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\姜天赐\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b30a0f20c0aacaaafbe686f5b9f9d40e\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android\\androidstudio_workspace\\Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\姜天赐\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b30a0f20c0aacaaafbe686f5b9f9d40e\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    }
+]
