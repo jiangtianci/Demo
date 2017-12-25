@@ -7,6 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.eventbus.adapter.MyAdapter;
 import com.example.eventbus.api.Api;
@@ -40,11 +41,18 @@ public class MainActivity extends AppCompatActivity implements Iview {
         presenter = new MyPresenter(this);
         presenter.loadlist(Api.BASE_URL,catalogId,"1");
     }
-
     @Override
     public void getShowData(List<MovieBean.RetBean.ListBean> list) {
-        adapter=new MyAdapter(MainActivity.this,list);
+        adapter=new MyAdapter(
+                MainActivity.this,list);
         recycler.setAdapter(adapter);
+        adapter.setOnItemClickListener(new MyAdapter.OnItemClickListener(){
+            @Override
+            public void onItemClick(View view , int position){
+                Toast.makeText(MainActivity.this,"点击了第"+position+"条数据", Toast.LENGTH_SHORT).show();
+            }
+        });
 
     }
+    
 }

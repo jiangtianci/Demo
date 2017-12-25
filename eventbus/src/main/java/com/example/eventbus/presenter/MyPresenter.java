@@ -32,5 +32,9 @@ public class MyPresenter implements Ipersenter{
                 iview.getShowData(list);
             }
         });
+
+    }
+    public  void distory(){
+        iview=null;
     }
 }

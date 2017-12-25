@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * Created by 姜天赐 on 2017/12/18.
  */
-public class MyAdapter extends RecyclerView.Adapter {
+public class MyAdapter extends RecyclerView.Adapter  implements View.OnClickListener{
     Context context;
     List<MovieBean.RetBean.ListBean> list;
     private View view;
@@ -28,19 +28,36 @@ public class MyAdapter extends RecyclerView.Adapter {
         this.context = context;
         this.list = list;
     }
-
+    private OnItemClickListener mOnItemClickListener = null;
+    public static interface OnItemClickListener {
+        void onItemClick(View view , int position);
+    }
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         view = LayoutInflater.from(context).inflate(R.layout.item, parent, false);
         holder = new ViewHolder(view);
+        view.setOnClickListener(this);
         return holder;
     }
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         ((ViewHolder)holder).face .setImageURI(Uri.parse(list.get(position).pic));
         ((ViewHolder)holder).title.setText(list.get(position).description);
+        ((ViewHolder)holder).itemView.setTag(position);
 
     }
+    @Override
+    public void onClick(View v) {
+        if (mOnItemClickListener != null) {
+            //注意这里使用getTag方法获取position
+            mOnItemClickListener.onItemClick(v,(int)v.getTag());
+        }
+    }
+
+    public void setOnItemClickListener(OnItemClickListener listener) {
+        this.mOnItemClickListener = listener;
+    }
+
     @Override
     public int getItemCount() {
         return list == null ? 0 : list.size();
