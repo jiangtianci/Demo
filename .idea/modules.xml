@@ -3,7 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Demo.iml" filepath="$PROJECT_DIR$/Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day45_listview_video/day45_listview_video.iml" filepath="$PROJECT_DIR$/day45_listview_video/day45_listview_video.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventbus/eventbus.iml" filepath="$PROJECT_DIR$/eventbus/eventbus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gouwuche/gouwuche.iml" filepath="$PROJECT_DIR$/gouwuche/gouwuche.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gouwuche2/gouwuche2.iml" filepath="$PROJECT_DIR$/gouwuche2/gouwuche2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gouwuches/gouwuches.iml" filepath="$PROJECT_DIR$/gouwuches/gouwuches.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kapian/kapian.iml" filepath="$PROJECT_DIR$/kapian/kapian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shipin/shipin.iml" filepath="$PROJECT_DIR$/shipin/shipin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taiji/taiji.iml" filepath="$PROJECT_DIR$/taiji/taiji.iml" />
     </modules>
   </component>
 </project>

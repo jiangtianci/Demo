@@ -8,7 +8,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/day45_listview_video" />
             <option value="$PROJECT_DIR$/eventbus" />
+            <option value="$PROJECT_DIR$/gouwuche" />
+            <option value="$PROJECT_DIR$/gouwuche2" />
+            <option value="$PROJECT_DIR$/gouwuches" />
+            <option value="$PROJECT_DIR$/kapian" />
+            <option value="$PROJECT_DIR$/shipin" />
+            <option value="$PROJECT_DIR$/taiji" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

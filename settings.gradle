@@ -1,3 +1,5 @@
+include ':taiji', ':shipin', ':gouwuche', ':gouwuche2', 'kapian', ':day45_listview_video', 'gouwuches'
 //include ':week1', ':denos', ':ss', ':demo2', ':zhangyifan1509a1206', ':app', ':zfb', ':fenlei', ':gouwuche', ':erweima', ':pindao', ':play', ':play', ':eventbus', 'sxs', 'share',':topNewGrid', 'yuekao', 'shengxuesong', ':pickerview', 'dizhi'
 include 'eventbus';
+
 
